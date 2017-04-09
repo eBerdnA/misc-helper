@@ -4,12 +4,20 @@
   "description": "some helpers for handlebars",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "handlebars",
     "helpers"
   ],
-  "author": "Andre Bering",
-  "license": "ISC"
+  "author": {
+    "name": "Andre Bering",
+    "email": "andre@bering.in",
+    "url": "http://andre.bering.in"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "express-handlebars": "^3.0.0",
+    "mocha": "^3.2.0"
+  }
 }
